@@ -7,6 +7,9 @@ except:
     raise
 
 
+import os
+from .GetPackageDir import GetPackageDir
+
 class package(object):
     def __init__(self
                 ,package_name=None           #程序包的名字
